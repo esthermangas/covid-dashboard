@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './select.module.css';
 import Select from 'react-select';
-import {countries} from "../../utils/countries";
-import {useCountryContext} from "../../context/useContextCountry";
+import {countries} from '../../utils/countries';
+import {useCountryContext} from '../../context/useContextCountry';
 
 const SelectCountries = () => {
     const {country, setCountry} = useCountryContext();;

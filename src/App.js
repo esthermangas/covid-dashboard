@@ -1,9 +1,9 @@
 import styles from './App.module.css';
-import Graphic from "./Views/graphics";
-import ToolBar from "./components/toolbar/toolBar";
-import CountryInformation from "./Views/countryInformation/countryInformation.view";
-import {useCountryContext} from "./context/useContextCountry";
-import useCountryData from "./utils/useCountryData";
+import Graphic from './Views/graphics';
+import ToolBar from './components/toolbar/toolBar';
+import CountryInformation from './Views/countryInformation/countryInformation.view';
+import {useCountryContext} from './context/useContextCountry';
+import useCountryData from './utils/useCountryData';
 
 const  App = () => {
     const {country} = useCountryContext();

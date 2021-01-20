@@ -1,3 +1,3 @@
-import Graphic from "./graphics.view";
+import Graphic from './graphics.view';
 
 export default Graphic;

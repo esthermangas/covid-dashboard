@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
 }
+
 .notDataRoot{
     height: 300px;
     width: 100%;
@@ -15,6 +16,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .notData {
     width: 400px;
     height: 100px;

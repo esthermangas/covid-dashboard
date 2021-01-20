@@ -9,9 +9,11 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .icon {
     display: flex;
 }
+
 .text {
     color: #060768;
     font-weight: 900;

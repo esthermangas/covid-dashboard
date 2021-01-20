@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './toolBar.module.css';
 import covid from '../../covid.png';
-import SelectCountries from "../select/select.view";
+import SelectCountries from '../select/select.view';
 
 const ToolBar = () => {
     return (
@@ -11,10 +11,8 @@ const ToolBar = () => {
                     <div>COVID</div>
                     <div className={styles.subText}>Stas</div>
                 </div>
-
                 <img src={covid}/>
             </div>
-
             <div className={styles.select}>
                 <SelectCountries/>
             </div>

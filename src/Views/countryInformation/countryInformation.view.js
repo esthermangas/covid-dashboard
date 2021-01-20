@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './countryInformation.module.css';
-import InfoCard from "../../components/infoCard/infoCard.view";
+import InfoCard from '../../components/infoCard/infoCard.view';
 
 const CountryInformation = (props) => {
     const {countryData} = props;
